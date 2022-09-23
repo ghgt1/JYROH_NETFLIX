@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* header부분 즉 첫번째 구역 */
+header {
+  background-image: url(./images/net_bg1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 700px;
+}
+header .container {
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  height: 100%;
+  width: 100%;
+  border-bottom: 8px solid rgb(54, 53, 53);
+  box-sizing: border-box;
+}
+header .container .top {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .top img {
+  padding-left: 50px;
+}
+header .container .top select {
+  padding: 8px 22px;
+  border: 1px solid #ffffff;
+  margin-right: 30px;
+}
+header .container .top a {
+  background-color: #e50914;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7px 17px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-right: 50px;
+}
+header .container .main {
+  width: 100%;
+  padding: 170px 0;
+  color: #ffffff;
+}
+
+header .container .main h1 {
+  max-width: 800px;
+  font-size: 64px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 500;
+}
+header .container .main h2 {
+  font-size: 26px;
+  margin: 30px auto;
+  text-align: center;
+  font-weight: 400;
+}
+header .container .main h3 {
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+header .container .main .start-email {
+  display: flex;
+  justify-content: center;
+}
+header .container .main input {
+  width: 500px;
+  height: 70px;
+  box-sizing: border-box;
+}
+header .container .main button {
+  width: 245px;
+  height: 70px;
+  box-sizing: border-box;
+  background-color: #e50914;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+/* 두번째구역 시작 */
+article .container2 {
+  background-color: black;
+  display: flex;
+  color: #ffffff;
+  padding: 70px 45px;
+  height: 445px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 8px solid rgb(54, 53, 53);
+  box-sizing: border-box;
+}
+article .container2 .text {
+  /* align-self: center; */
+  padding: 0 48px;
+}
+article .container2 .text h1 {
+  font-size: 50px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+article .container2 .text h2 {
+  max-width: 580px;
+  max-height: 100px;
+  font-size: 26px;
+  margin: 19.5px 0 6.5px;
+  line-height: 35px;
+}
+article .container2 .img {
+  position: relative;
+}
+article .container2 .img .netflix-video {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  max-width: 73%;
+  max-height: 49%;
+  top: 46%;
+  transform: translate(-51%, -51%);
+}
+
+/* 세번째 구역 시작 */
+article .container3 {
+  background-color: black;
+  display: flex;
+  color: #ffffff;
+  padding: 70px 45px;
+  height: 445px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 8px solid rgb(54, 53, 53);
+  box-sizing: border-box;
+}
+article .container3 .text h1 {
+  font-size: 50px;
+  margin-bottom: 8px;
+  max-width: 600px;
+  max-height: 110px;
+  line-height: 1.1;
+  font-weight: bold;
+}
+article .container3 .text h2 {
+  max-width: 547px;
+  max-height: 70px;
+  font-size: 26px;
+  margin: 21px 0 6.5px;
+}
+/* 네번째 구역 시작 */
+article .container4 {
+  background-color: black;
+  display: flex;
+  color: #ffffff;
+  padding: 70px 45px;
+  height: 445px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 8px solid rgb(54, 53, 53);
+  box-sizing: border-box;
+}
+article .container4 .text h1 {
+  font-size: 50px;
+  max-width: 600px;
+  max-height: 55px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+article .container4 .text h2 {
+  max-width: 580px;
+  max-height: 99px;
+  font-size: 26px;
+  margin: 19.5px 0 6.5px;
+  line-height: 35px;
+}
+article .container4 .img {
+  position: relative;
+}
+article .container4 .img img {
+  position: relative;
+  z-index: 2;
+}
+article .container4 .img .netflix-video {
+  position: absolute;
+  left: 50%;
+  max-width: 63%;
+  max-height: 47%;
+  top: 34%;
+  transform: translate(-51%, -51%);
+}
+/*  다섯번째 구역 시작 */
+article .container5 {
+  background-color: black;
+  display: flex;
+  color: #ffffff;
+  padding: 70px 45px;
+  height: 445px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 8px solid rgb(54, 53, 53);
+  box-sizing: border-box;
+}
+article .container5 .img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+}
+article .container5 .text h1 {
+  font-size: 50px;
+  max-width: 700px;
+  max-height: 55px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+article .container5 .text h2 {
+  max-width: 580px;
+  max-height: 99px;
+  font-size: 26px;
+  margin: 19.5px 0 6.5px;
+  line-height: 35px;
+}
+/* 여섯번째 구간 시작 */
+article .container6 {
+  background-color: black;
+  color: #ffffff;
+  padding: 70px 45px;
+  height: 938px;
+  border-bottom: 8px solid rgb(54, 53, 53);
+  box-sizing: border-box;
+}
+article .container6 .text h1 {
+  font-size: 50px;
+  margin: 0 0 50px;
+  text-align: center;
+  font-weight: bold;
+}
+article .container6 .faq .faqitem {
+  margin: 0 auto;
+  margin-bottom: 8px;
+  width: 815px;
+}
+article .container6 .faq .faqitem .faqquestion {
+  border: 0;
+  color: #ffffff;
+  margin-bottom: 1px;
+  font-size: 26px;
+  font-weight: 400;
+  position: relative;
+  padding: 0 30px;
+  text-align: left;
+  background-color: #303030;
+  display: block;
+  width: 815px;
+  height: 75px;
+  cursor: pointer;
+}
+article .container6 .faq .faqitem i {
+  float: right;
+}
+article .container6 .email-button h3 {
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 47.5px 20px;
+  font-weight: 400;
+}
+article .container6 .email-button .start-email {
+  display: flex;
+  justify-content: center;
+}
+article .container6 .email-button input {
+  width: 500px;
+  height: 70px;
+  box-sizing: border-box;
+}
+article .container6 .email-button button {
+  width: 245px;
+  height: 70px;
+  box-sizing: border-box;
+  background-color: #e50914;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 200;
+}
+/* 7번째 구간 시작 */
+footer .container7 {
+  background-color: black;
+  color: #ffffff;
+  padding: 70px 45px 0;
+  height: 529px;
+  /* margin: 0 auto; */
+}
+footer .container7 .item-wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+footer .container7 .item-wrap p {
+  margin: 0 0 30px;
+  color: #737373;
+}
+footer .container7 .item-wrap .last-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .container7 .item-wrap .last-list li {
+  width: 225px;
+  height: 16px;
+  margin: 0 0 16px;
+  padding: 0 12px 0 0;
+  box-sizing: border-box;
+}
+footer .container7 .item-wrap .last-list li a {
+  font-size: 13px;
+  text-decoration-line: none;
+  color: #737373;
+}
+footer .container7 .lan {
+  width: 900px;
+  height: 53px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+footer .container7 .lan select {
+  padding: 8px 22px;
+  border: 1px solid #ffffff;
+
+  margin-right: 30px;
+}
+footer .container7 .netflix {
+  width: 900px;
+  margin: 0 auto;
+  color: #737373;
+}
+footer .container7 .netflix .netflix-korea {
+  margin: 24px 0 13px;
+}
+footer .container7 .netflix .site-info {
+  font-size: 12px;
+}
+footer .container7 .netflix .site-info p {
+  margin-top: 4px;
+}
